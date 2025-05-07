@@ -1,0 +1,54 @@
+#items {
+    display: -ms-grid;
+    max-width: 185vh;
+}
+
+#container,
+#selection,
+#quick,
+#insertion,
+#merge {
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#ssort,
+#bbsort,
+#qsort,
+#isort,
+#msort {
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    border-right: 8px double black;
+}
+
+h1 {
+    border-bottom: 10px double red;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    background-color: #f6efe7;
+    /* align-items: flex; */
+    flex-direction: column;
+    height: 100dvh;
+    width: auto;
+}
+
+.bar,
+.bar1,
+.bar2,
+.bar3,
+.bar4 {
+    width: 10px;
+    background-color: black;
+    margin: 2px;
+    align-content: center;
+}

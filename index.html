@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Sorting Visualizer</h1>
+    <div id="items">
+        <!-- //bubble sorting visualizer -->
+        <div id="bbsort">
+            <div id="container">
+
+            </div>
+            <h2>Bubble Sorting</h2>
+
+
+            <hr>
+            <div>
+                <label for="arraySize"> Enter the array size</label>
+                <input type="range" id="mySlider" min="0" max="100" value="10" />
+                <div class="value-display">Value: <span id="n">10</span></div>
+            </div>
+            <div>
+                <button onclick="init() ">init</button>
+                <button onclick="play() ">paly</button>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------------- -->
+        <!-- selection sorting visualizer -->
+        <div id="ssort">
+            <div id="selection">
+
+            </div>
+            <h2>Selection Sorting</h2>
+            <hr>
+            <div>
+                <label for="arraySize"> Enter the array size</label>
+                <input type="range" id="mySlider1" min="0" max="100" value="10" />
+                <div class="value-display">Value: <span id="m">10</span></div>
+            </div>
+            <div>
+                <button onclick="init1() ">init</button>
+                <button onclick="play1() ">paly</button>
+            </div>
+        </div>
+
+        <!-- ------------------------------------------------------------- -->
+        <!-- Quick sorting visualizer -->
+        <div id="qsort">
+            <div id="quick">
+
+            </div>
+            <h2>Quick Sorting</h2>
+            <hr>
+            <div>
+                <label for="arraySize"> Enter the array size</label>
+                <input type="range" id="mySlider2" min="0" max="100" value="10" />
+                <div class="value-display">Value: <span id="num">10</span></div>
+            </div>
+            <div>
+                <button onclick="init2() ">init</button>
+                <button onclick="play2() ">paly</button>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------------- -->
+        <!-- Insertion sorting visualizer -->
+        <div id="isort">
+            <div id="insertion">
+
+            </div>
+            <h2>Insertion Sorting</h2>
+            <hr>
+            <div>
+                <label for="arraySize"> Enter the array size</label>
+                <input type="range" id="mySlider3" min="0" max="100" value="10" />
+                <div class="value-display">Value: <span id="a">10</span></div>
+            </div>
+            <div>
+                <button onclick="init3() ">init</button>
+                <button onclick="play3() ">paly</button>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------------- -->
+        <!-- Merge sorting visualizer -->
+        <div id="msort">
+            <div id="merge">
+
+            </div>
+            <h2>Merge Sorting</h2>
+            <hr>
+            <div>
+                <label for="arraySize"> Enter the array size</label>
+                <input type="range" id="mySlider4" min="0" max="100" value="10" />
+                <div class="value-display">Value: <span id="a1">10</span></div>
+            </div>
+            <div>
+                <button onclick="init4() ">init</button>
+                <button onclick="play4() ">paly</button>
+            </div>
+        </div>
+    </div>
+    <script src="BubbleSort.js"></script>
+    <script src="SelectionSort.js"></script>
+    <script src="QuickSort.js"></script>
+    <script src="InsertionSort.js"></script>
+    <script src="MergeSort.js"></script>
+</body>
+
+</html>
