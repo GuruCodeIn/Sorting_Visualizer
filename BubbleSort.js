@@ -1,6 +1,6 @@
 const slider = document.getElementById('mySlider');
 const valueDisplay = document.getElementById('n');
-const container = document.getElementById('container'); // Make sure you have this in HTML
+const container = document.getElementById('container'); 
 
 let n = slider.value;
 const array = [];
