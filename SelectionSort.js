@@ -38,7 +38,7 @@ function PlayNote1(freq) {
 }
 
 function initialize1() {
-    init1(); // keep your structure
+    init1(); 
 }
 
 function init1() {
