@@ -22,10 +22,10 @@
 #qsort,
 #isort,
 #msort {
-    width: 98vw;
+    width: 98.5vw;
     text-align: center;
     border: 2px solid black;
-    border-right: 8px double black;
+/*     border-right: 8px double black; */
 }
 
 h1 {
