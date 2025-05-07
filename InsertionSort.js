@@ -43,7 +43,7 @@ function PlayNote1(freq) {
 }
 
 function init3() {
-    array3 = []; // ✅ Clear the old array to properly resize when slider changes
+    array3 = []; // 
     for (let i = 0; i < a; i++) {
         array3.push(Math.random());
     }
@@ -100,7 +100,7 @@ function Insertionsort(array3) {
 }
 
 function showbar3(move) {
-    insertion.innerHTML = ""; // Clear the bars before re-rendering
+    insertion.innerHTML = ""; 
     for (let i = 0; i < array3.length; i++) {
         const bar3 = document.createElement("div");
         bar3.style.height = array3[i] * 100 + "%";
