@@ -43,7 +43,7 @@ function PlayNote2(freq) {
 }
 
 function init2() {
-    array2 = []; // ✅ Clear previous array to allow decreasing bars
+    array2 = []; // Clear previous array to allow decreasing bars
     for (let i = 0; i < num; i++) {
         array2.push(Math.random());
     }
